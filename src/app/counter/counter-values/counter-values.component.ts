@@ -24,6 +24,8 @@ export class CounterValuesComponent {
   ngOnDestroy(): void {
     if(this.counterSubscription){
       this.counterSubscription.unsubscribe()
+      console.log("this is feature branch broo");
+      
     }
 
   }
