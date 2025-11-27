@@ -1,0 +1,30 @@
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+
+  .icon {
+    font-size: 60px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+
+  .icon {
+    font-size: 60px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

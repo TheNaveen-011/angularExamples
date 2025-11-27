@@ -1,0 +1,36 @@
+<ng-container *ngFor="let course of courses$ | async">
+    <div class="course-list-container">
+        <div class="course-card">
+            <div class="course-image">
+                <img [src]="course.image"
+                    [alt]="course.title">
+            </div>
+            <div class="course-content">
+                <h3>{{course.title}}</h3>
+                <p>{{course.description}}</p>
+                <div class="course-meta">
+                    <span class="duration">⏱ 40 hrs</span>
+                    <span class="level">Beginner</span>
+                </div>
+                <h4>{{course.author}}</h4>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+        </div>
+
+        <!-- <div class="course-card">
+            <div class="course-image">
+                <img src="https://www.webasha.com/uploads/course/images/66890a84bc92b1720257156.Full_Stack_Python_Developer.jpg"
+                    alt="Course Thumbnail">
+            </div>
+            <div class="course-content">
+                <h3>UI/UX Design Fundamentals</h3>
+                <p>Master the basics of user interface and user experience design.</p>
+                <div class="course-meta">
+                    <span class="duration">⏱ 25 hrs</span>
+                    <span class="level">Intermediate</span>
+                </div>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+        </div> -->
+    </div>
+</ng-container>

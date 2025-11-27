@@ -1,0 +1,76 @@
+// Base header container
+.heder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4E2334;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  // Logo section
+  .header-logo {
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0;
+      color: #f9f9f9;
+    }
+  }
+
+  // Navigation links
+  .header-links {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      text-decoration: none;
+      color: #ddd;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  // Auth links
+  .heaer-auth-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: #ddd;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .logout-button {
+      background: #e63946;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+
+      &:hover {
+        background: #d62839;
+      }
+    }
+  }
+}
+a.active {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #ff6600;
+}
+
